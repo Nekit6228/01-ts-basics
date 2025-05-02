@@ -1,11 +1,11 @@
-import {name,age,isOnline} from '/task-1';
-import {product} from '/task-2';
-import {usernames,ratings,products} from '/task-3';
-import {printUserInfo} from '/task-4';
-import {logStatus} from '/task-5';
-import {getFirstElement} from '/task-6';
-import {getMessage} from '/task-7';
-import {fetchPosts} from '/task-8';
+import {name,age,isOnline} from './task-1';
+import {product} from './task-2';
+import {usernames,ratings,products} from './task-3';
+import {printUserInfo} from './task-4';
+import {logStatus} from './task-5';
+import {getFirstElement} from './task-6';
+import {getMessage} from './task-7';
+import {fetchPosts} from './task-8';
 /* task 1 */
 console.log(`Name: ${name}`);
 console.log(`Age: ${age}`);
