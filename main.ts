@@ -22,9 +22,9 @@ printUserInfo("Bob", 25, "bob@mail.com");
 /* task 5 */
 logStatus("loading");
 /* task 6 */
-getFirstElement([1, 2, 3]);
-getFirstElement(["a", "b", "c"]);
-getFirstElement([true, false, true]);
+getFirstElement<number>([1, 2, 3]);
+getFirstElement<string>(["a", "b", "c"]);
+getFirstElement<boolean>([true, false, true]);
 /* task 7 */
 getMessage().then(result => console.log(result)); 
 /* task 8 */

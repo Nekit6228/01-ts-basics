@@ -13,3 +13,4 @@ export  async function fetchPosts(): Promise<Post[]> {
   return response.data;
 }
 
+
